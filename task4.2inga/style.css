@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(98, 184, 184);
+    color: black;
+    padding-left: 26px;
+    line-height: 64px;
+}
+
+.link::after {
+    content: '>';
+    display: inline-block;
+    width: 59px;
+    height: 64px;
+    background-color: rgb(74, 133, 133);
+    line-height: 64px;
+    text-align: center;
+    color: white;
+    margin-left: 26px;
+}
