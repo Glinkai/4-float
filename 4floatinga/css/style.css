@@ -22,16 +22,20 @@
     }
     
     .logo {
-        float: left;
-        padding-top: 43px;
+        display: inline-block;
         width: 38.64px;
         height: 59px;
+        padding-top: 43px;
     }
     
     nav {
         padding-left: 83.36px;
-        padding-top: 59px;
         font-family: 'Open Sans';
+    }
+    
+    nav,
+    .logo {
+        vertical-align: top;
     }
     
     nav a {
@@ -110,25 +114,23 @@
         text-decoration: none;
         display: inline-block;
         background-color: #FFFAF3;
-        padding: 17px 11px 17px 15px;
         font-family: 'Open Sans';
         font-size: 20px;
         color: #3F4042;
         border: 2px solid #C08D5D;
         margin-top: 72px;
+        line-height: 66px;
+        padding-left: 15px;
     }
     
     .link::after {
-        content: '';
+        content: url(../images/link.svg);
         display: inline-block;
-        width: 17px;
-        height: 5.5px;
+        width: 61px;
+        height: 60x;
         background-color: #C08D5D;
-        background-image: url(../images/link.svg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
         margin-left: 21.5px;
+        text-align: center;
     }
     
     .mouse img {
@@ -136,5 +138,5 @@
         margin-top: 62.6px;
         width: 33.47px;
         height: 69.8px;
-        margin-left: 508px;
+        margin-left: 523px;
     }
